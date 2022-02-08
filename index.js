@@ -8,6 +8,8 @@ fetch('https://api.covid19api.com/summary').then((response) => {
   const data = responsedata;
   let country = data.Countries;
   let str = "";
+    let date = new Date();
+
   country.forEach(function (element, index) {
     str += ` <div class="card" id="card22">
             <div class="card-header" id="heading${index}">
@@ -21,7 +23,7 @@ fetch('https://api.covid19api.com/summary').then((response) => {
             <div id="collapse${index}" class="collapse " aria-labelledby="heading${index}" data-parent="#accordionExample">
               <div class="card-body">
                 <div class="alert alert-primary" role="alert">
-                 Date: ${element["Date"]}
+                    Date&Time:${date}
                 </div>
                 <div class="alert alert-light" role="alert">
                NewConfirmed: ${element['NewConfirmed']}
