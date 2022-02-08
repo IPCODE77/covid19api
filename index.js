@@ -38,9 +38,7 @@ fetch('https://api.covid19api.com/summary').then((response) => {
                 <div class="alert alert-danger" role="alert">
                  TotalDeaths: ${element['TotalDeaths']}
                 </div>
-                <div class="alert alert-info" role="alert">
-                 TotalRecovered: ${element['TotalRecovered']}
-                </div>
+              
             
               </div>
             </div>
