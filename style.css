@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: #2BC0E4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+hr{
+    height: 6px;
+    color: dodgerblue;
+}
+
+.para1{
+    text-align: center; 
+    font-size: 30px;
+    font-family: 'Source Serif 4', sans-serif;
+  
+}
+.para2{
+    display: flex;
+    justify-content: center;
+    font-size: 24px; color: red;
+    font-family: 'Quintessential', cursive;
+}
+h3{
+   color:  darkslategrey;
+    font-family: 'Source Serif Pro', serif;
+}
