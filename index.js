@@ -77,7 +77,7 @@ btn.addEventListener("click", function (e) {
     }
     else {
       element.style.display = "none";     
-      // getelement();
+     
       
     }
     
